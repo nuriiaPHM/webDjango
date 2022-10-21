@@ -2,11 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <title>MiSitio</title>
     </head>
     <body>
         <div>
             <p>Página web de Proyectos</p>
         </div>
+    {% for cliente in clientes %}
+        <p>______________________________________________________________________________</p>
+    <div>
+        <p>DNI: {{ cliente.dni }}  Nombre: {{ cliente.nombre }}  Fecha Alta: {{ cliente.alta }} </p>
+        <p>Direccion: {{ cliente.direccion }}  Movil: {{ cliente.movil }}</p>
+    </div>
+    {% endfor %}
+        <p>______________________________________________________________________________</p>
     </body>
 </html>
