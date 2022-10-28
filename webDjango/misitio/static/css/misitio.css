@@ -1,0 +1,24 @@
+.page-header{
+    background-color: #69dddd;
+    margin-top:5px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Abel';
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+.page-header a {
+    color: #ffffff;
+}
+
+.content{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    font-family: 'Calibre';
+}
+
+.dni{
+    color: #882818;
+}
